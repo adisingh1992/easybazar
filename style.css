@@ -5,28 +5,26 @@
 
 header{
     background-color: #000520;
+    padding: 1.5%;
 }
 
 #logo{
     color: orangered;
-    font-size: 3vw;
-    padding-top: 15px;
+    font-size: 2.5vw;
+    padding-left: 1%;
     text-shadow: 5px 5px 20px whitesmoke;
 }
 
-#search{
-    padding: 3% 0 0 15%;
-}
-
 #search input{
-    width: 80%;
+    width: 100%;
     padding: 2%;
     border-radius: 5px;
     border: 0;
 }
 
 #login-box{
-    padding: 5% 0 0 0;
+    padding: 2%;
+    float: right;
     color: orangered;
     font-size: 1.5vw;
     text-decoration: none;
@@ -131,4 +129,10 @@ footer{
 
 footer a{
     padding: 1%;
+}
+
+.user-form{
+    width: 50%;
+    height: 50%;
+    background-color: grey;
 }

@@ -11,16 +11,16 @@
     </head>
     <body>
         <header class="row" id="top">
-            <div class="c-1">
-                <div id="logo">
-                    <span>ЄѦՏү</span><span style="color:#fff;">ѣѦՀѦГ</span>
-                </div>
+            <div id="logo" class="c-3">
+                <span>ЄѦՏү</span><span style="color:#fff;">ѣѦՀѦГ</span>
             </div>
-            <div id="search" class="c-9">
+            <div id="search" class="c-6">
                 <form action="search.php" method="get">
                     <input type="text" name="search-txt" placeholder="Search for a product"/>
                     <input type="submit" hidden/>
                 </form>
             </div>
-            <a href="login.php" class="c-2" id="login-box">Hey there, Sign-In..!!</a>
+            <div class="c-3">
+                <a href="login.php" id="login-box">Hey there, Sign-In..!!</a>
+            </div>
         </header>
