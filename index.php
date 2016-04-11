@@ -1,9 +1,73 @@
 <?php include 'header.php' ?>
         <div class="row">
-            <img src="1.jpg" alt="slider-image" class="c-12" id="slider-img"/>
+            <img src="images/1.jpg" alt="slider-image" class="c-12" id="slider-img"/>
         </div>
+        <div class="row">
+            <div class="c-8 container">
+                <h1>Deals of the Day..!!</h1>
+                <div class="content">
+                    <div class="row">
+                        <img class="c-2" src="images/deal1.jpeg"/>
+                        <img class="c-2" src="images/deal2.jpeg"/>
+                        <img class="c-2" src="images/deal3.jpeg"/>
+                        <img class="c-2" src="images/deal4.jpeg"/>
+                        <img class="c-2" src="images/deal5.jpeg"/>
+                        <img class="c-2" src="images/deal6.jpeg"/>
+
+                        <p class="c-2">Deal 1</p>
+                        <p class="c-2">Deal 2</p>
+                        <p class="c-2">Deal 3</p>
+                        <p class="c-2">Deal 4</p>
+                        <p class="c-2">Deal 5</p>
+                        <p class="c-2">Deal 6</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="line-break"/>
+        <hr class="line-break1"/>
+        <div class="row">
+            <div class="c-8 container">
+                <h1>Deals of the Day..!!</h1>
+                <div class="content">
+                    <div class="row">
+                        <img class="c-2" src="images/deal1.jpeg"/>
+                        <img class="c-2" src="images/deal2.jpeg"/>
+                        <img class="c-2" src="images/deal3.jpeg"/>
+                        <img class="c-2" src="images/deal4.jpeg"/>
+                        <img class="c-2" src="images/deal5.jpeg"/>
+                        <img class="c-2" src="images/deal6.jpeg"/>
+
+                        <p class="c-2">Deal 1</p>
+                        <p class="c-2">Deal 2</p>
+                        <p class="c-2">Deal 3</p>
+                        <p class="c-2">Deal 4</p>
+                        <p class="c-2">Deal 5</p>
+                        <p class="c-2">Deal 6</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="line-break"/>
+        <hr class="line-break1"/>
+
+        <div class="row">
+            <div class="c-12" id="nav-to-top">
+                <a href="#top"><h4>Back to Top</h4></a>
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <div class="img-contain"><img src="images/deal1.jpeg"/></div>
+            <div class="img-contain"><img src="images/deal2.jpeg"/></div>
+            <div class="img-contain"><img src="images/deal3.jpeg"/></div>
+            <div class="img-contain"><img src="images/deal4.jpeg"/></div>
+            <div class="img-contain"><img src="images/deal5.jpeg"/></div>
+            <div class="img-contain"><img src="images/deal6.jpeg"/></div>
+        </div>
+        
         <script language="javascript">
-            var pictures = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg"];
+            var pictures = ["images/1.jpg", "images/2.jpg", "images/3.jpg", "images/4.jpg", "images/5.jpg"];
             var len = pictures.length;
             var i = 0;
             document.getElementById("slider-img").src = pictures[i];

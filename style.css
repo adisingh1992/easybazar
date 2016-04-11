@@ -4,14 +4,14 @@
 */
 
 header{
-    background-color: #393736;
+    background-color: #000520;
 }
 
 #logo{
     color: orangered;
     font-size: 3vw;
     padding-top: 15px;
-    text-shadow: 2px 2px 5px whitesmoke;
+    text-shadow: 5px 5px 20px whitesmoke;
 }
 
 #search{
@@ -26,7 +26,7 @@ header{
 }
 
 #login-box{
-    padding: 5% 0 0 10%;
+    padding: 5% 0 0 0;
     color: orangered;
     font-size: 1.5vw;
     text-decoration: none;
@@ -34,4 +34,100 @@ header{
 
 #slider-img{
     padding: 0;
+}
+
+.container{
+    background-color: #F7F4F3;
+    margin: 5% 0 0 5%;
+    box-shadow: 0px 0px 20px grey;
+    border-radius: 5px;
+}
+
+.container h1{
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.content{
+    box-shadow: 0px 0px 5px grey;
+    background-color: #fff;
+    border-radius: 10px;
+    height: 30%;
+    text-align: center;
+}
+
+.content img{
+    height: 140px;
+}
+
+.content p{
+    border-top: 1px solid #000;
+}
+
+.line-break{
+    margin: 5% 0 0 5%;
+    width: 66.66%;
+    padding: 10px;
+    border: 1px solid #000;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.line-break1{
+    margin: 0 0 0 5%;
+    width: 66.66%;
+    padding: 10px;
+    border: 1px solid #000;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+#nav-to-top{
+    margin-top: 5%;
+}
+
+#nav-to-top h4{
+    background-color: #F7F4F3;
+    text-align: center;
+    color: #000;
+    padding: 1%;
+}
+
+#nav-to-top a{
+    text-decoration: none;
+}
+
+.sidebar{
+    position: absolute;
+    background-color: #fff;
+    width: 20%;
+    top: 65%;
+    left: 75%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px grey;
+}
+
+.img-contain{
+    padding: 5%;
+}
+
+.sidebar img{
+    width: 30%;
+    margin: auto;
+    display: block;    
+    height: auto;
+}
+
+footer{
+    text-align: center;
+}
+
+footer a{
+    padding: 1%;
 }
