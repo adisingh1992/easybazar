@@ -18,5 +18,6 @@
                 </div>
             </div>
         </footer>
+        <script src="static/js/scripts.js"></script>
     </body>
 </html>

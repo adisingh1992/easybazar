@@ -1,11 +1,14 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html>
     <head>
         <title>ЄѦՏүѣѦՀѦГ</title>
         <meta charset="UTF-8"/>
-        <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
-        <link href="layout.css" rel="stylesheet" type="text/css"/>
-        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <link rel="icon" href="static/images/favicon.ico" type="image/x-icon"/>
+        <link href="static/css/layout.css" rel="stylesheet" type="text/css"/>
+        <link href="static/css/style.css" rel="stylesheet" type="text/css"/>
         <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
     </head>

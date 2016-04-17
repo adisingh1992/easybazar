@@ -1,18 +1,18 @@
 <?php include 'header.php' ?>
         <div class="row">
-            <img src="images/1.jpg" alt="slider-image" class="c-12" id="slider-img"/>
+            <img src="static/images/1.jpg" alt="slider-image" class="c-12" id="slider-img"/>
         </div>
         <div class="row">
             <div class="c-8 container">
                 <h1>Deals of the Day..!!</h1>
                 <div class="content">
                     <div class="row">
-                        <img class="c-2" src="images/deal1.jpeg"/>
-                        <img class="c-2" src="images/deal2.jpeg"/>
-                        <img class="c-2" src="images/deal3.jpeg"/>
-                        <img class="c-2" src="images/deal4.jpeg"/>
-                        <img class="c-2" src="images/deal5.jpeg"/>
-                        <img class="c-2" src="images/deal6.jpeg"/>
+                        <img class="c-2" src="static/images/deal1.jpeg"/>
+                        <img class="c-2" src="static/images/deal2.jpeg"/>
+                        <img class="c-2" src="static/images/deal3.jpeg"/>
+                        <img class="c-2" src="static/images/deal4.jpeg"/>
+                        <img class="c-2" src="static/images/deal5.jpeg"/>
+                        <img class="c-2" src="static/images/deal6.jpeg"/>
 
                         <p class="c-2">Deal 1</p>
                         <p class="c-2">Deal 2</p>
@@ -31,12 +31,12 @@
                 <h1>Deals of the Day..!!</h1>
                 <div class="content">
                     <div class="row">
-                        <img class="c-2" src="images/deal1.jpeg"/>
-                        <img class="c-2" src="images/deal2.jpeg"/>
-                        <img class="c-2" src="images/deal3.jpeg"/>
-                        <img class="c-2" src="images/deal4.jpeg"/>
-                        <img class="c-2" src="images/deal5.jpeg"/>
-                        <img class="c-2" src="images/deal6.jpeg"/>
+                        <img class="c-2" src="static/images/deal1.jpeg"/>
+                        <img class="c-2" src="static/images/deal2.jpeg"/>
+                        <img class="c-2" src="static/images/deal3.jpeg"/>
+                        <img class="c-2" src="static/images/deal4.jpeg"/>
+                        <img class="c-2" src="static/images/deal5.jpeg"/>
+                        <img class="c-2" src="static/images/deal6.jpeg"/>
 
                         <p class="c-2">Deal 1</p>
                         <p class="c-2">Deal 2</p>
@@ -58,16 +58,16 @@
         </div>
 
         <div class="sidebar">
-            <div class="img-contain"><img src="images/deal1.jpeg"/></div>
-            <div class="img-contain"><img src="images/deal2.jpeg"/></div>
-            <div class="img-contain"><img src="images/deal3.jpeg"/></div>
-            <div class="img-contain"><img src="images/deal4.jpeg"/></div>
-            <div class="img-contain"><img src="images/deal5.jpeg"/></div>
-            <div class="img-contain"><img src="images/deal6.jpeg"/></div>
+            <div class="img-contain"><img src="static/images/deal1.jpeg"/></div>
+            <div class="img-contain"><img src="static/images/deal2.jpeg"/></div>
+            <div class="img-contain"><img src="static/images/deal3.jpeg"/></div>
+            <div class="img-contain"><img src="static/images/deal4.jpeg"/></div>
+            <div class="img-contain"><img src="static/images/deal5.jpeg"/></div>
+            <div class="img-contain"><img src="static/images/deal6.jpeg"/></div>
         </div>
         
         <script language="javascript">
-            var pictures = ["images/1.jpg", "images/2.jpg", "images/3.jpg", "images/4.jpg", "images/5.jpg"];
+            var pictures = ["static/images/1.jpg", "static/images/2.jpg", "static/images/3.jpg", "static/images/4.jpg", "static/images/5.jpg"];
             var len = pictures.length;
             var i = 0;
             document.getElementById("slider-img").src = pictures[i];
